@@ -1,0 +1,44 @@
+@keyframes slideIn {
+  form{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+.sidebarcontainer{
+  margin: 0;
+  max-width:200px;
+  height:800px;
+  background-color: #092A55;
+  color:#f8f8ff;
+  font-family: "Poppins", sans-serif !important;
+  transform: translateX(-100%);
+  animation: slideIn 1s ease-in-out 0.2s forwards;
+  
+}
+
+.sidebarcontent {
+  padding: 20px;
+}
+
+ tbody{
+
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  gap:45px;
+  align-items: baseline;
+  padding: 15px;
+
+}
+
+tr{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+tr:hover{
+  cursor: pointer;
+}

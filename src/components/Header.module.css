@@ -1,0 +1,18 @@
+.headercontainer{
+  height:50px;
+  width: 100%;
+  background-color: #092A55;
+  color:#f8f8ff;
+  font-family: "Poppins", sans-serif !important;
+}
+
+
+.menuicon{
+ margin:10px 0px 0px 20px;
+ font-size: 20px;
+
+}
+
+.menuicon:hover{
+  cursor: pointer;
+}
